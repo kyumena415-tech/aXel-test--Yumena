@@ -1,0 +1,45 @@
+/* 全体の基本スタイル */
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* 見出し */
+h1 {
+  color: #005a9c;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
+
+/* 段落 */
+p {
+  margin-bottom: 1em;
+}
+
+/* 箇条書き */
+ul, ol {
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+/* 画像 */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+/* リンク */
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
