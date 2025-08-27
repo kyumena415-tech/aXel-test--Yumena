@@ -27,10 +27,32 @@ h1:before {
   position: absolute;
   left : 0.5em; /*左端からのアイコンまでの距離*/
 }
-h2 {
-  /*h2タグの文字色をオレンジに*/
-  color:orange;
+
+.box {
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #62c1ce;
 }
+.box .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -27px;
+    left: -3px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #62c1ce;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+}
+.box p {
+    margin: 0; 
+    padding: 0;
+}
+
 /* 段落 */
 p {
   margin-bottom: 1em;
