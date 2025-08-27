@@ -13,13 +13,24 @@ body {
 
 /* 見出し */
 h1 {
-  color: #005a9c;
-  border-bottom: 2px solid #ccc;
-  padding-bottom: 10px;
-  text-align: center;
-    margin-bottom: 20px;
+  position: relative;
+  color: white;
+  background: #81d0cb;
+  line-height: 1.4;
+  padding: 0.5em 0.5em 0.5em 1.8em;
 }
 
+h1:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f14a";
+  font-weight: 900;
+  position: absolute;
+  left : 0.5em; /*左端からのアイコンまでの距離*/
+}
+h2 {
+  /*h2タグの文字色をオレンジに*/
+  color:orange;
+}
 /* 段落 */
 p {
   margin-bottom: 1em;
