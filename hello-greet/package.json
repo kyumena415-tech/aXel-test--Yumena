@@ -1,0 +1,27 @@
+{
+  "name": "axel-test-yumena",
+  "version": "1.0.0",
+  "description": "これはテスト用の新しいファイルです。\r aXelの運用の練習ページです。\r プログラミングもGitHubも初めての人間が練習用に毎週の課題をこなしていきます。",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "greet": "node greet.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyumena415-tech/aXel-test--Yumena.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyumena415-tech/aXel-test--Yumena/issues"
+  },
+  "homepage": "https://github.com/kyumena415-tech/aXel-test--Yumena#readme",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
