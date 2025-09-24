@@ -1,0 +1,7 @@
+node_modules/
+# Pythonキャッシュファイル
+__pycache__/
+*.pyc
+
+# Node.jsの依存フォルダ
+node_modules/
