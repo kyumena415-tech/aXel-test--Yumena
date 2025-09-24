@@ -3,11 +3,8 @@
 aXelの運用の練習ページです。
 プログラミングもGitHubも初めての人間が練習用に毎週の課題をこなしていきます。
 
-2回目の編集です。
-git add .
-git commit -m "README.mdを編集"
 
-# 使ったコマンドとメモ
+# GitHub用コマンドとメモ
 
 
 git push origin main
